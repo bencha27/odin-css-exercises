@@ -5,6 +5,19 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -23,4 +36,21 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+
+.list-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 16px;
+}
+
+#link-store, 
+#link-business {
+  margin-right: auto;
+}
+
+.footer {
+  background-color: lightgray;
 }
